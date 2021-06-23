@@ -2,18 +2,24 @@
 
 body {
   display: grid;
-  grid-template-rows: [header] 1em [content] 100vh [footer] 1em;
+  grid-template-rows: [header] 3em [content] 80vh [footer] 1em;
 }
 .header {
   grid-row: header;
-  background-color: orange;
+  background-color: #ed7d37;
+  padding: 1em;
+  text-align: center;
 }
 .content {
   grid-row: content;
-  background-color: steelblue;
+  background-color: #37c3ed;
   overflow-y: scroll;
+  color: red;
+  padding: 1em;
 }
 .footer {
   grid-row: footer;
-  background-color: lightgray;
+  background-color: #afc5cc;
+  padding: 1em;
+  text-align: center;
 }
