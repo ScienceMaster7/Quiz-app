@@ -3,7 +3,7 @@
 
 body {
   display: grid;
-  grid-template-rows: 80px auto 100px;
+  grid-template-rows: 60px auto 75px;
   height: 100vh;
 }
 .header {
@@ -17,7 +17,6 @@ body {
 }
 
 footer {
-  padding: 10px;
   text-align: center;
 }
 
@@ -45,12 +44,29 @@ footer {
   margin: 1em;
 }
 
-.nav__icon {
-  size: 20px;
-}
 .tag {
   padding: 5px 15px 5px 15px;
   display: inline;
   margin: 10px;
   border-radius: 5px;
+}
+
+.fa-igloo {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-bookmark {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-edit {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-id-card {
+  font-size: 3rem;
+  padding: 10px;
 }
