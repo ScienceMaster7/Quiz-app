@@ -1,1 +1,19 @@
-@import '_base.css';
+@import "_base.css";
+
+body {
+  display: grid;
+  grid-template-rows: [header] 1em [content] 100vh [footer] 1em;
+}
+.header {
+  grid-row: header;
+  background-color: orange;
+}
+.content {
+  grid-row: content;
+  background-color: steelblue;
+  overflow-y: scroll;
+}
+.footer {
+  grid-row: footer;
+  background-color: lightgray;
+}
