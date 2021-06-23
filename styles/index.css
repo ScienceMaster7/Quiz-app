@@ -3,22 +3,20 @@
 
 body {
   display: grid;
-  grid-template-rows: [header] 3em [content] 80vh [footer] 1em;
+  grid-template-rows: 80px auto 100px;
+  height: 100vh;
 }
 .header {
-  grid-row: header;
-  padding: 1em;
+  padding: 10px;
   text-align: center;
 }
 .content {
-  grid-row: content;
   overflow-y: scroll;
-  padding: 1em;
+  padding: 20px;
 }
 
 footer {
-  grid-row: footer;
-  padding: 1em;
+  padding: 10px;
   text-align: center;
 }
 
@@ -27,6 +25,8 @@ footer {
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
 }
 
 .questionTitle {
@@ -34,13 +34,18 @@ footer {
 }
 
 .questionText {
+  text-align: center;
   padding: 5px;
+  margin: 1em;
 }
 
 .answerButton {
   padding: 5px;
+  margin: 1em;
 }
 
 .tag {
   padding: 5px;
+  display: inline;
+  margin: 1em;
 }
