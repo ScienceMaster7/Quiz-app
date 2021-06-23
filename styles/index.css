@@ -1,4 +1,5 @@
 @import "_base.css";
+@import "colors.css";
 
 body {
   display: grid;
@@ -6,20 +7,40 @@ body {
 }
 .header {
   grid-row: header;
-  background-color: #ed7d37;
   padding: 1em;
   text-align: center;
 }
 .content {
   grid-row: content;
-  background-color: #37c3ed;
   overflow-y: scroll;
-  color: red;
   padding: 1em;
 }
-.footer {
+
+footer {
   grid-row: footer;
-  background-color: #afc5cc;
   padding: 1em;
   text-align: center;
+}
+
+.quizcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.questionTitle {
+  padding: 10px;
+}
+
+.questionText {
+  padding: 5px;
+}
+
+.answerButton {
+  padding: 5px;
+}
+
+.tag {
+  padding: 5px;
 }
