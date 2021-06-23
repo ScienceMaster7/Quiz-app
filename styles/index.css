@@ -44,6 +44,9 @@ footer {
   margin: 1em;
 }
 
+.nav__icon {
+  size: 20px;
+}
 .tag {
   padding: 5px;
   display: inline;
