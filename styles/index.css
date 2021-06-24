@@ -1,24 +1,10 @@
 @import "_base.css";
-@import "colors.css";
+@import "_colors.css";
 
-.outerGrid {
-  display: grid;
-  grid-template-rows: 60px auto 75px;
-  height: 100vh;
-}
-.header {
-  padding: 10px;
-  text-align: center;
-  font-size: large;
-}
 .content {
   overflow-y: scroll;
   padding: 20px;
   background: var(--primary-bg-color);
-}
-
-.footer {
-  text-align: center;
 }
 
 .quizcard {
@@ -52,24 +38,4 @@
   margin: 10px;
   border-radius: 5px;
   background: var(--tag-color);
-}
-
-.fa-igloo {
-  font-size: 3rem;
-  padding: 10px;
-}
-
-.fa-bookmark {
-  font-size: 3rem;
-  padding: 10px;
-}
-
-.fa-edit {
-  font-size: 3rem;
-  padding: 10px;
-}
-
-.fa-user {
-  font-size: 3rem;
-  padding: 10px;
 }

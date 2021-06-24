@@ -1,18 +1,5 @@
 @import "_base.css";
-@import "colors.css";
-
-.outerGrid {
-  display: grid;
-  grid-template-rows: 60px auto 75px;
-  height: 100vh;
-}
-
-.header {
-  padding: 10px;
-  text-align: center;
-  font-size: large;
-  background-image: linear-gradient(to right, #ee0979, #ff6a00);
-}
+@import "_colors.css";
 
 .content {
   padding: 10px;

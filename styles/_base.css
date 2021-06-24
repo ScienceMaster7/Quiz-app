@@ -9,3 +9,40 @@
 html {
   font-family: sans-serif;
 }
+
+.outerGrid {
+  display: grid;
+  grid-template-rows: 60px auto 75px;
+  height: 100vh;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+  background-image: linear-gradient(to right, #ee0979, #ff6a00);
+}
+
+.footer {
+  text-align: center;
+}
+
+.fa-igloo {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-bookmark {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-edit {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-user {
+  font-size: 3rem;
+  padding: 10px;
+}
