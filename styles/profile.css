@@ -1,0 +1,83 @@
+@import "_base.css";
+@import "colors.css";
+
+.outerGrid {
+  display: grid;
+  grid-template-rows: 60px auto 75px;
+  height: 100vh;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+  background-image: linear-gradient(to right, #ee0979, #ff6a00);
+}
+
+.content {
+  padding: 10px;
+  background: var(--primary-bg-color);
+  text-align: center;
+}
+
+.profile__Picture {
+  border-radius: 30px;
+  height: 20%;
+  width: 40%;
+  margin: 10px 0 10px 0;
+}
+
+.userName {
+  margin: 10px 0 10px 0;
+}
+
+.userBio {
+  margin: 25px 0 25px 0;
+}
+
+.skills__title {
+  margin: 10px 0 10px 0;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 1rem;
+  background: var(--tag-color);
+  margin: 5px;
+  border-radius: 5px;
+}
+.logout-btn {
+  margin: 10px 0 10px 0;
+  height: 30px;
+  width: 70px;
+}
+
+footer {
+  text-align: center;
+  background-image: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+.fa-igloo {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-bookmark {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-edit {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-user {
+  font-size: 3rem;
+  padding: 10px;
+}

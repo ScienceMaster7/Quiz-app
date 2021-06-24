@@ -1,25 +1,75 @@
 @import "_base.css";
+@import "colors.css";
 
-body {
+.outerGrid {
   display: grid;
-  grid-template-rows: [header] 3em [content] 80vh [footer] 1em;
+  grid-template-rows: 60px auto 75px;
+  height: 100vh;
 }
 .header {
-  grid-row: header;
-  background-color: #ed7d37;
-  padding: 1em;
+  padding: 10px;
   text-align: center;
+  font-size: large;
 }
 .content {
-  grid-row: content;
-  background-color: #37c3ed;
   overflow-y: scroll;
-  color: red;
-  padding: 1em;
+  padding: 20px;
+  background: var(--primary-bg-color);
 }
+
 .footer {
-  grid-row: footer;
-  background-color: #afc5cc;
-  padding: 1em;
   text-align: center;
+}
+
+.quizcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  background: var(--card-color);
+}
+
+.questionTitle {
+  padding: 10px;
+}
+
+.questionText {
+  text-align: center;
+  padding: 5px;
+  margin: 1em;
+}
+
+.answerButton {
+  padding: 5px;
+  margin: 1em;
+}
+
+.tag {
+  padding: 5px 15px 5px 15px;
+  display: inline;
+  margin: 10px;
+  border-radius: 5px;
+  background: var(--tag-color);
+}
+
+.fa-igloo {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-bookmark {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-edit {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-user {
+  font-size: 3rem;
+  padding: 10px;
 }

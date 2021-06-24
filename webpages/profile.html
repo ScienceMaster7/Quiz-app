@@ -5,6 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
+    <link rel="stylesheet" href="/styles/profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body class="outerGrid">
+    <header class="header">
+      <h1>User Profile</h1>
+    </header>
+    <main class="content">
+      <img
+        class="profile__Picture"
+        src="/me_in_newzealand.JPG"
+        alt="Me in New Zealand standing at the sea"
+      />
+      <h2 class="userName">Bendikt Walch</h2>
+      <p class="userBio">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+        inventore? Possimus expedita esse nulla magnam, nemo cumque sapiente
+        officia eius ab porro rem est autem. Reiciendis perferendis alias labore
+        eligendi.
+      </p>
+      <section class="Skills">
+        <h3 class="skills__title">Skills</h3>
+        <div class="tags">
+          <div class="tag">Science</div>
+          <div class="tag">Mythology</div>
+          <div class="tag">Geography</div>
+          <div class="tag">Languages</div>
+        </div>
+      </section>
+      <button class="logout-btn">Log Out</button>
+    </main>
+    <footer>
+      <nav class="navbar">
+        <a href="/index.html"><i class="fas fa-igloo"></i></a>
+        <a href="/webpages/bookmarks.html"><i class="far fa-bookmark"></i></a>
+        <a href="/webpages/create.html"><i class="far fa-edit"></i></a>
+        <a href="/webpages/profile.html"><i class="fas fa-user"></i></a>
+      </nav>
+    </footer>
+  </body>
 </html>
