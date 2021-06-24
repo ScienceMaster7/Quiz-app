@@ -14,6 +14,7 @@ body {
 .content {
   overflow-y: scroll;
   padding: 20px;
+  background: var(--primary-bg-color);
 }
 
 footer {
@@ -27,6 +28,7 @@ footer {
   border-radius: 10px;
   padding: 10px;
   margin: 10px 0 10px 0;
+  background: var(--card-color);
 }
 
 .questionTitle {
@@ -49,6 +51,7 @@ footer {
   display: inline;
   margin: 10px;
   border-radius: 5px;
+  background: var(--tag-color);
 }
 
 .fa-igloo {
@@ -66,7 +69,7 @@ footer {
   padding: 10px;
 }
 
-.fa-id-card {
+.fa-user {
   font-size: 3rem;
   padding: 10px;
 }

@@ -1,19 +1,12 @@
-.quizcard {
-  background-color: rebeccapurple;
+:root {
+  --primary-bg-color: #37c3ed;
+  --card-color: rebeccapurple;
+  --tag-color: red;
 }
-
 .header {
   background-image: linear-gradient(to right, #ee0979, #ff6a00);
 }
 
-.content {
-  background-color: #37c3ed;
-}
-
 footer {
   background-image: linear-gradient(to right, #2193b0, #6dd5ed);
-}
-
-.tag {
-  background-color: red;
 }
