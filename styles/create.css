@@ -1,2 +1,17 @@
 @import "_base.css";
 @import "_colors.css";
+
+.Create__paragraph {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.textarea {
+  margin: 10px 0;
+}
+
+.content__submit-button {
+  margin: 20px 0;
+  height: 2rem;
+  width: 5rem;
+}
