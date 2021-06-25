@@ -1,12 +1,6 @@
 @import "_base.css";
 @import "_colors.css";
 
-.content {
-  padding: 10px;
-  background: var(--primary-bg-color);
-  text-align: center;
-}
-
 .profile__Picture {
   border-radius: 30px;
   height: 20%;

@@ -23,6 +23,12 @@ html {
   background-image: linear-gradient(to right, #ee0979, #ff6a00);
 }
 
+.content {
+  padding: 10px;
+  background: var(--primary-bg-color);
+  text-align: center;
+}
+
 .footer {
   text-align: center;
 }
