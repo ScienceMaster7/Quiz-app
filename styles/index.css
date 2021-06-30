@@ -16,6 +16,16 @@
   margin: 10px 0 10px 0;
   background: var(--card-color);
 }
+.quiz-card__bookmark {
+  position: relative;
+  font-size: 1.5rem;
+  right: -5em;
+  top: -3em;
+}
+
+.quiz-card__bookmark--toggled:hover {
+  color: aquamarine;
+}
 
 .questionTitle {
   padding: 10px;
