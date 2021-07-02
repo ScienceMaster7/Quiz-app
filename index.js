@@ -1,15 +1,29 @@
-const question = document.querySelector(".questionText");
-const questiontext = question.textContent;
-const checkAnswerbutton = document.querySelector(".answerButton");
+const question = document.querySelectorAll(".questionText");
 
-checkAnswerbutton.addEventListener("click", (event) => {
-  event.preventDefault();
-  console.log(checkAnswerbutton.textContent);
-  if (checkAnswerbutton.textContent === "Check Answer") {
-    question.textContent = "Poseidon";
-    checkAnswerbutton.textContent = "Show Question";
-  } else if ((checkAnswerbutton.textContent = "Show Question")) {
-    question.textContent = questiontext;
-    checkAnswerbutton.textContent = "Check Answer";
-  }
-});
+let questiontext = [];
+for (let k = 0; k < question.length; k++) {
+  questiontext.push(question[k].textContent);
+}
+
+let answers = [
+  "Poseidon",
+  "Olympus mons",
+  "Tungsten",
+  "about 2 Meters",
+  "Göttingen",
+];
+
+const checkAnswerbutton = document.querySelectorAll(".answerButton");
+
+for (let i = 0; i < checkAnswerbutton.length; i++) {
+  checkAnswerbutton[i].addEventListener("click", (event) => {
+    event.preventDefault();
+    if (checkAnswerbutton[i].textContent === "Check Answer") {
+      question[i].textContent = answers[i];
+      checkAnswerbutton[i].textContent = "Show Question";
+    } else if ((checkAnswerbutton[i].textContent = "Show Question")) {
+      question[i].textContent = questiontext[i];
+      checkAnswerbutton[i].textContent = "Check Answer";
+    }
+  });
+}
