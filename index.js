@@ -1,10 +1,6 @@
 const question = document.querySelectorAll(".questionText");
-
+const checkAnswerbutton = document.querySelectorAll(".answerButton");
 let questiontext = [];
-for (let k = 0; k < question.length; k++) {
-  questiontext.push(question[k].textContent);
-}
-
 let answers = [
   "Poseidon",
   "Olympus mons",
@@ -13,7 +9,9 @@ let answers = [
   "Göttingen",
 ];
 
-const checkAnswerbutton = document.querySelectorAll(".answerButton");
+for (let k = 0; k < question.length; k++) {
+  questiontext.push(question[k].textContent);
+}
 
 for (let i = 0; i < checkAnswerbutton.length; i++) {
   checkAnswerbutton[i].addEventListener("click", (event) => {
