@@ -16,6 +16,16 @@
   margin: 10px 0 10px 0;
   background: var(--card-color);
 }
+.quiz-card__bookmark {
+  position: relative;
+  font-size: 1.5rem;
+  right: -5em;
+  top: -3em;
+}
+
+.quiz-card__bookmark--toggled:hover {
+  color: aquamarine;
+}
 
 .questionTitle {
   padding: 10px;
@@ -38,4 +48,81 @@
   margin: 10px;
   border-radius: 5px;
   background: var(--tag-color);
+}
+
+.Create__paragraph {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.textarea {
+  margin: 10px 0;
+}
+
+.content__submit-button {
+  margin: 20px 0;
+  height: 2rem;
+  width: 5rem;
+}
+
+.profile__Picture {
+  border-radius: 30px;
+  height: 25%;
+  width: 70%;
+  margin: 10px 0 10px 0;
+}
+
+.userName {
+  margin: 10px 0 10px 0;
+}
+
+.userBio {
+  margin: 25px 0 25px 0;
+}
+
+.skills__title {
+  margin: 10px 0 10px 0;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 1rem;
+  background: var(--tag-color);
+  margin: 5px;
+  border-radius: 5px;
+}
+.logout-btn {
+  margin: 10px 0 10px 0;
+  height: 30px;
+  width: 70px;
+}
+
+footer {
+  text-align: center;
+  background-image: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+.fa-igloo {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-bookmark {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-edit {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.fa-user {
+  font-size: 3rem;
+  padding: 10px;
 }
