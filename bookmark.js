@@ -5,7 +5,7 @@ const mainElement = document.querySelector(".content");
 for (let i = 0; i < bookmark.length; i++) {
   bookmark[i].addEventListener("click", () => {
     bookmark[i].classList.toggle("bookmark--color--toggled");
-    let newQuizCard = quizcards[i];
+    let newQuizCard = quizcards[i].cloneNode(true);
     mainElement.appendChild(newQuizCard);
   });
 }
