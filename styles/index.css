@@ -16,16 +16,6 @@
   margin: 10px 0 10px 0;
   background: var(--card-color);
 }
-.quiz-card__bookmark {
-  position: relative;
-  font-size: 1.5rem;
-  right: -5em;
-  top: -3em;
-}
-
-.quiz-card__bookmark--toggled:hover {
-  color: aquamarine;
-}
 
 .questionTitle {
   padding: 10px;
@@ -125,4 +115,14 @@ footer {
 .fa-user {
   font-size: 3rem;
   padding: 10px;
+}
+
+.bookmark--position {
+  position: relative;
+  left: 60%;
+  font-size: 2rem;
+}
+
+.bookmark--color--toggled {
+  color: aquamarine;
 }
