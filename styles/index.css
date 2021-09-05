@@ -119,7 +119,8 @@ footer {
 
 .bookmark--position {
   position: relative;
-  left: 60%;
+  left: 40%;
+  top: -0.75em;
   font-size: 2rem;
 }
 
